@@ -10,5 +10,6 @@ EOS
 for FRUITS in $FRUITS_LIST
 do
   #品目と値段を表示
+  # banana 100yen のように横並びにする
   echo $FRUITS
 done
