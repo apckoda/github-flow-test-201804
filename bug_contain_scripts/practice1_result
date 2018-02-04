@@ -1,0 +1,8 @@
+input_lines = gets.strip
+uniq_input_lines = input_lines.split('').uniq
+
+if uniq_input_lines.count == 1
+  puts 'NG'
+else
+  puts 'OK'
+end
